@@ -1,0 +1,5 @@
+This content is written using read and write mode.
+mode.This line appended to end of file.
+This line appended to end of file.
+This line appended to end of file.
+This line appended to end of file!.
