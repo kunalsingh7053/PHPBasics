@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Example</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+            // Hide button event
+            $("#hideBtn").click(function(){
+                $("#text").hide();
+            });
+
+            // Show button event
+            $("#showBtn").click(function(){
+                $("#text").show();
+            });
+
+            // Toggle button event
+            $("#toggleBtn").click(function(){
+                $("#text").toggle();
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <h2>jQuery Program Example</h2>
+
+    <p id="text">This is a sample paragraph using jQuery.</p>
+
+    <button id="hideBtn">Hide</button>
+    <button id="showBtn">Show</button>
+    <button id="toggleBtn">Toggle</button>
+
+</body>
+</html>
